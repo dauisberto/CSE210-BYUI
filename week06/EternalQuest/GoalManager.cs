@@ -72,11 +72,11 @@ public class GoalManager
                 bonus = usercheckGoal.GetBonus();
             }
 
-            _score += _score + bonus + points;
+            _score += bonus + points;
         }
         else
         {
-            _score += _score + points;
+            _score += + points;
         }
     }
 
