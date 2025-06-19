@@ -71,6 +71,7 @@ class Program
                 }
                 else
                 {
+                    //Creativity: Adding a data validator in case user types something wrong!
                     Console.WriteLine("Oops! It looks like you wrote a wrong option");
                 }
             }
@@ -100,8 +101,13 @@ class Program
                 manager.ListGoalNames();
                 Console.WriteLine("Enter the number ");
                 int userIndex;
-                userIndex = int.Parse(Console.ReadLine())-1;
+                userIndex = int.Parse(Console.ReadLine()) - 1;
                 manager.RecordEvent(userIndex);
+            }
+            else if (userInput != "6")
+            {
+                //Creativity: Adding a data validator in case user types something wrong!
+                Console.WriteLine("Oops! It looks like you wrote a wrong option");
             }
 
 
