@@ -46,7 +46,7 @@ public class ReflectingActivity : Activity
         Console.WriteLine("Press enter when you feel free to go ");
         Console.ReadLine();
         Console.Write("You may begin in: ");
-        ShowCountDown(6);
+        ShowCountDown(5);
 
         while (DateTime.Now < endTime)
         {

@@ -53,7 +53,7 @@ class Program
         while (keep_playing==0)
         {
         Random randomGenerator = new Random();
-        int akinator_number=randomGenerator.Next(1,5);
+        int akinator_number=randomGenerator.Next(1,100);
             Console.Write("What is your number guess? ");
             string guess = Console.ReadLine();
             int guess_number;
